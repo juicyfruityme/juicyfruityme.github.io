@@ -1,1 +1,1 @@
-This is the personal [website](juicyfruityme.github.io).
+This is the personal [website](https://juicyfruityme.github.io/).

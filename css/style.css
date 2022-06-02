@@ -1,0 +1,14 @@
+h1.title {
+    text-align: center;
+}
+article.about {
+    text-align: center;
+}
+ul.nav {
+    text-align: center;
+}
+
+ul.nav > li {
+    display: inline-block;
+    padding: 10px 20px;
+}

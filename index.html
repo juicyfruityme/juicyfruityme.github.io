@@ -1,18 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Juicy Fruity</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+        <div class="navbar-right">
+            <select data-i18n-switcher class="locale-switcher">
+                <option value="en">English</option>
+                <option value="zh">简体中文</option>
+            </select>
+        </div>
+
     <h1 class="title">Juicy Fruity</h1>
     <ul class="nav">
-        <li><a href="/index.html">Home</a></li>
-        <li>Articles</li>
+        <li><a href="/index.html" data-i18n-key="home">Home</a></li>
+        <li data-i18n-key="articles">Articles</li>
     </ul>
 
-    <article class="about">
+    <article class="about" data-i18n-key="about">
         Welcome to Juicy Fruity! This website contains something that I would like to share. 
     </article>
+
+    <script src="js/lang.js"></script>
 </body>
 </html>
